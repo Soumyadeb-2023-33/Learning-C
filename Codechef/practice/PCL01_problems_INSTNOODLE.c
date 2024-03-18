@@ -21,12 +21,9 @@
 
 int main() {
     int X, Y;
-    printf("Enter the number of stoves: ");
-    scanf("%d", &X);
-    printf("Enter the number of minutes: ");
-    scanf("%d", &Y);
+    scanf("%d %d", &X, &Y);
     int customers_served = X * Y;
-    printf("Chef can serve %d customers in %d minutes.\n", customers_served, Y);
+    printf("%d\n", customers_served);
     
     return 0;
 }
