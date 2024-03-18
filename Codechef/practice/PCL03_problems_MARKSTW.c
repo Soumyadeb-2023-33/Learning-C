@@ -7,15 +7,14 @@
 
 int main() {
     int X, Y;
-    printf("Enter Alice's score: ");
-    scanf("%d", &X);
-    printf("Enter Bob's score: ");
-    scanf("%d", &Y);
+    // x is alice and y is bob
+    scanf("%d %d", &X, &Y);
+    // check x is happy 
     if (X >= 2 * Y) {
-        printf("Alice is happy!\n");
+        printf("Yes\n");
     } else {
-        printf("Alice is not happy.\n");
+        printf("No\n");
     }
-
+    
     return 0;
 }

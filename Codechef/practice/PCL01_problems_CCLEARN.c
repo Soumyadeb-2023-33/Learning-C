@@ -7,9 +7,7 @@
 
 int main() {
     int N;
-    printf("Enter the number of languages: ");
-    scanf("%d", &N);
-    int total_courses = N * 2;
-    printf("Total number of courses: %d\n", total_courses);
+    int total_courses = 2 * N;
+    printf("%d\n", total_courses);
     return 0;
 }
