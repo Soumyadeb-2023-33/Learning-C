@@ -1,0 +1,13 @@
+Multiple Choice Question
+Which line of code will output the string "Hi"?
+
+
+Which line of code will output the sum of 7 and 19?
+
+print(Hi);
+printf(Hi);
+print("Hi");
+printf("Hi");
+
+
+correct is printf("Hi");
